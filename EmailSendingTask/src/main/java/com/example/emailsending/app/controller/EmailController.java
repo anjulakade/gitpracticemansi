@@ -14,7 +14,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @CrossOrigin("*")
 @RestController
 public class EmailController 
-{
+{ 
+	// my emailcontroller 
 	@Autowired
 	EmailServicei si;
 	@PostMapping("/sendEmail")
